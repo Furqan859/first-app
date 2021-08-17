@@ -6,6 +6,7 @@ import {handfree, laptop, mobile, acessorie} from "./databse";
 
 
 const App = () => {
+    //Test
     const [mobiles, setMobiles] = useState([]);
     const [laptops, setLaptops] = useState([]);
     const [handfrees, setHandfrees] = useState([]);
