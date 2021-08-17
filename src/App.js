@@ -11,7 +11,7 @@ const App = () => {
     const [laptops, setLaptops] = useState([]);
     const [handfrees, setHandfrees] = useState([]);
     const [acessories, setAcessories] = useState([]);
-    //jjjj
+
 
     useEffect(() => {
         setMobiles(mobile);
@@ -21,8 +21,10 @@ const App = () => {
     }, [])
 
 
+
     return (
         <div>
+            <h1></h1>
             <Header/>
             <div className="container-fluid">
                 <h1 className="display-4">Mobiles</h1>
