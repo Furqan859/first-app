@@ -80,24 +80,24 @@ export const handfree = [
 
 ]
 
-export let acessorie = [
+export let phonecase = [
     {
         id: 1,
         name: "Huawei",
         price: "8000",
-        image: "https://d28i4xct2kl5lp.cloudfront.net/product_images/110792_20a645ad-8c77-4f96-9252-b722fff7edb8.jpg"
+        image: "https://wonderfulengineering.com/wp-content/uploads/2020/05/best-cases-for-Huawei-P40-10-888x1024.jpg"
     },
     {
         id: 2,
         name: "Apple",
         price: "8000",
-        image: "https://d28i4xct2kl5lp.cloudfront.net/product_images/110792_20a645ad-8c77-4f96-9252-b722fff7edb8.jpg"
+        image: "https://www.meintrendyhandy.de/images/Original-iPhone-XS-Max-Apple-Leather-Case-MRWT2ZM-A-Black-0190198763464-15092018-01-p.jpg"
     },
     {
         id: 3,
-        name: "Lenovo",
+        name: "Samsung",
         price: "8000",
-        image: "https://d28i4xct2kl5lp.cloudfront.net/product_images/110792_20a645ad-8c77-4f96-9252-b722fff7edb8.jpg"
+        image: "https://www.reliablecounter.com/blog/wp-content/uploads/2019/03/samsungs9.jpg"
     },
     {
         id: 4,

@@ -2,21 +2,22 @@ import React, {useState, useEffect} from "react";
 import Header from "./components/Header";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
-import {handfree, laptop, mobile, acessorie} from "./databse";
+import {handfree, laptop, mobile, phonecase} from "./databse";
 
 
 const App = () => {
-    //Test
+    //Test```````````````````````````````````````````````
     const [mobiles, setMobiles] = useState([]);
     const [laptops, setLaptops] = useState([]);
     const [handfrees, setHandfrees] = useState([]);
     const [acessories, setAcessories] = useState([]);
+    //jjjj
 
     useEffect(() => {
         setMobiles(mobile);
         setLaptops(laptop);
         setHandfrees(handfree);
-        setAcessories(acessorie)
+        setAcessories(phonecase)
     }, [])
 
 
@@ -51,10 +52,10 @@ const App = () => {
             </div>
 
             <div className="container-fluid">
-                <h1 className="display-4">acessories</h1>
+                <h1 className="display-4">Phone Case</h1>
                 <div className="row">
-                    {acessories.map(acessorie => (
-                        <Card data={acessorie}/>
+                    {acessories.map(phonecase => (
+                        <Card data={phonecase}/>
                     ))}
                 </div>
             </div>
