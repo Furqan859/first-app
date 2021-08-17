@@ -46,6 +46,10 @@ const App = () => {
                     </div>
                 </div>
             </nav>
+            <div className="container-fluid">
+                <h1 className="display4">My First App</h1>
+                <p className="lead">Hello world</p>
+            </div>
         </div>
     )
 }
