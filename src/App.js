@@ -2,7 +2,7 @@ import React from "react";
 
 const App = () => {
     return <div>
-        Main page
+        Main page by Furqan
     </div>
 }
 
