@@ -22,9 +22,9 @@ const UseReducer = () =>{
         <div>
         <div> count - {count}</div>
 
-        <button onClick={() => dispatch("increment")}>incremnt</button>
-        <button onClick={() => dispatch("decrement")}>decrement</button>
-        <button onClick={() => dispatch("reset")}>reset</button>
+        <button type="button" className="btn btn-success btn-sm" onClick={() => dispatch("increment")}>Increment</button>
+        <button type="button" className="btn btn-secondary btn-sm" onClick={() => dispatch("decrement")}>Decrement</button>
+        <button type="button" className="btn btn-dark btn-sm"  onClick={() => dispatch("reset")}>Reset</button>
 
     </div>)
 }

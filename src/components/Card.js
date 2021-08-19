@@ -1,11 +1,13 @@
 import React from "react";
+import UseReducer from "./UseReducer";
 const Card=({data:{name,price,image,id}})=> {
     return (<div className="card" key={id} style={{ width: "18rem"}} >
         <img className="card-img-top" src={image} />
         <div className="card-body">
             <h5 className="card-title">{name}</h5>
+            <UseReducer/>
             <p className="card-text">{price}</p>
-            <a href="#" className="btn btn-primary">Add to Cart</a>
+            <a href="#" className="btn btn-primary btn-sm">Add to Cart</a>
         </div>
     </div>)
 }

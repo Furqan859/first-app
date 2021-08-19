@@ -19,42 +19,42 @@ const App = () => {
 
 )
 
-  return <UseReducer/>
-  // ( <div >
-  //   <Header/>
-  //   <div className="container-fluid">
-  //     <h1 className="display-4">Mobile</h1>
-  //     <div className="row">
-  //   {mobile.map(mobile=>(<Card data={mobile}/>))}
-  //
-  //     </div>
-  //   </div>
-  //
-  //   <div className="container-fluid">
-  //     <h1 className="display-4">Laptop</h1>
-  //     <div className="row">
-  //       {laptop.map(laptop=>(<Card data={laptop}/>))}
-  //
-  //     </div>
-  //   </div>
-  //
-  //   <div className="container-fluid">
-  //     <h1 className="display-4">Handfree</h1>
-  //     <div className="row">
-  //       {handfree.map(handfree =>(<Card data={handfree}/>))}
-  //
-  //     </div>
-  //   </div>
-  //
-  //   <div className="container-fluid">
-  //     <h1 className="display-4">Phone Case</h1>
-  //     <div className="row">
-  //       {phonecase.map(phonecase=>(<Card data={phonecase}/>))}
-  //
-  //     </div>
-  //   </div>
-  // <Footer/>
-  // </div>)
+  return( <div >
+
+    <Header/>
+    <div className="container-fluid">
+      <h1 className="display-4">Mobile</h1>
+      <div className="row">
+    {mobile.map(mobile=>(<Card data={mobile} />))}
+
+      </div>
+    </div>
+
+    <div className="container-fluid">
+      <h1 className="display-4">Laptop</h1>
+      <div className="row">
+        {laptop.map(laptop=>(<Card data={laptop}/>))}
+
+      </div>
+    </div>
+
+    <div className="container-fluid">
+      <h1 className="display-4">Handfree</h1>
+      <div className="row">
+        {handfree.map(handfree =>(<Card data={handfree}/>))}
+
+      </div>
+    </div>
+
+    <div className="container-fluid">
+      <h1 className="display-4">Phone Case</h1>
+      <div className="row">
+        {phonecase.map(phonecase=>(<Card data={phonecase}/>))}
+
+      </div>
+    </div>
+  <Footer/>
+  </div>)
 }
 export default App;
 
