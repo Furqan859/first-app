@@ -1,4 +1,5 @@
 import {Container, Nav, Navbar} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 const Header = () => {
   return(
@@ -9,7 +10,8 @@ const Header = () => {
               <Nav className="" style={{ marginLeft: "auto"}}>
                   <Nav.Link href="/">Home</Nav.Link>
                   <Nav.Link href="/cart">Cart</Nav.Link>
-                  <li><a href="/login"><nav className="glyphicon glyphicon-log-in"></nav>Login</a></li>
+                  <Nav.Link href="/contact">Contact</Nav.Link>
+                  <Nav.Link href="/login">Login</Nav.Link>
               </Nav>
           </Container>
       </Navbar>

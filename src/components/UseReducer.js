@@ -26,8 +26,10 @@ const  UseReducer = () =>{
             <CarouselSlides/>
 
             <div className="container-fluid">
+
                 <h1 className="display-4">Store-</h1>
                 <div className="row">
+
                     {product.map(mobile=>(<Card data={mobile} />))}
 
                 </div>

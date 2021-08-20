@@ -7,11 +7,15 @@ import {mobile,laptop, handfree ,phonecase} from "./databse";
 import UseReducer from "./components/UseReducer";
 import CarouselSlides from "./components/CarouselSlides";
 import Routes from "./components/Routes";
+import Login from "./components/Login";
 
 const App = () =>{
-  return (<div>
-    <Routes/>
-  </div>)
+  return (
+      <>
+    <Routes />
+    {/*<Login />*/}
+  </>
+  )
 }
   //
   // const reducer = ( CurrentState , Action ) => {
