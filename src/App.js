@@ -6,10 +6,11 @@ import {useEffect, useState} from "react";
 import {mobile,laptop, handfree ,phonecase} from "./databse";
 import UseReducer from "./components/UseReducer";
 import CarouselSlides from "./components/CarouselSlides";
+import Routes from "./components/Routes";
 
 const App = () =>{
   return (<div>
-    <UseReducer/>
+    <Routes/>
   </div>)
 }
   //
